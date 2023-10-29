@@ -8,6 +8,6 @@ import scrapy
 
 class RuffatoItem(scrapy.Item):
     # define the fields for your item here like:
-    title = scrapy.Field()
-    pub_year = scrapy.Field()
+    post_content = scrapy.Field()
+    url = scrapy.Field()
     pass
